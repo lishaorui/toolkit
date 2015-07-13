@@ -1,4 +1,4 @@
-package com.vrv.im;
+package io.dev.app;
 
 import java.util.Collections;
 import java.util.Comparator;
@@ -9,9 +9,6 @@ import org.junit.runners.model.FrameworkMethod;
 import org.junit.runners.model.InitializationError;
 
 /** 
- * @author 作者chengnl  E-mail: chengnengliang@vrvmail.com.cn
- * @version 创建时间：2013-6-24 下午09:11:20 
- * 类说明 
  */
 public class OrderedRunner extends BlockJUnit4ClassRunner {
 
