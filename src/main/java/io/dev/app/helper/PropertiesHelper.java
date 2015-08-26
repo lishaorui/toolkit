@@ -37,7 +37,7 @@ public class PropertiesHelper {
                 for(Map.Entry<Object, Object> entry : properties.entrySet())
                     map.put(entry.getKey().toString(), entry.getValue());
             }
-            logger.info("load config:", map);
+            logger.info("load config:{}", map);
         } catch (Exception e) {
             logger.error("Can't read the properties file. {}", e.getMessage());
         }
